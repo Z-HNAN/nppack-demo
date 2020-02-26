@@ -1,0 +1,13 @@
+{
+  "src": "./src",
+  "srcPublicJs": "./src/js",
+  "srcPublicCss": "./src/css",
+  "srcPublicImage": "./src/image",
+  "dist": "./public",
+  "distPublicJs": "./public/js",
+  "distPublicCss": "./public/css",
+  "distPublicImage": "./public/image",
+
+  "port": 8000,
+  "host": "0.0.0.0"
+}

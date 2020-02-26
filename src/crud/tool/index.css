@@ -1,0 +1,43 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+.side-bar {
+  flex: 0 0 260px;
+  padding-top: 60px;
+  border-right: 1px solid grey;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.content .btn {
+  width: 100px;
+  height: 40px;
+}
+
+.content .table .action {
+  width: 220px;
+}
+
+.content .table .btn {
+  width: 60px;
+}
+
+.content .table-pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}

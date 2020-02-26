@@ -1,0 +1,12 @@
+{
+  "name": "nppack-demo",
+  "version": "1.0.0",
+  "description": "nppack-demo-project",
+  "scripts": {
+    "build": "nppack build",
+    "start": "nppack dev"
+  },
+  "dependencies": {
+    "nppack": "^0.1.1"
+  }
+}
